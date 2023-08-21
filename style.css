@@ -86,7 +86,7 @@ input:focus {
     border-radius: 3px;
 }
 
-input:invalid {
+input:focus:invalid {
     border: 2px solid rgb(255, 29, 29);
 }
 
