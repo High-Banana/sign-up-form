@@ -124,3 +124,10 @@ button:hover {
     color: rgb(182, 5, 5);
     font-weight: 700;
 }
+
+.error_message{
+    font-size: 12px;
+    color: rgb(255, 29, 29);
+    position: absolute;
+    bottom: 9.3rem;
+}
