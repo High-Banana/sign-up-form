@@ -10,6 +10,10 @@ main {
     /* gap: 2rem; */
 }
 
+h2{
+    font-weight: 500;
+}
+
 .background-image {
     height: 100vh;
     display: flex;
@@ -42,6 +46,50 @@ main {
     padding: 1.5rem 3rem 5rem 2rem;
 }
 
-.intro>h2{
-    font-weight: 500;
+.form-section{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 3rem 2rem 2rem;
+    gap: 1.5rem;
+    box-shadow: 0px 3px 7px 2px gray;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 5px;
+}
+
+input{
+    width: 70%;
+    height: 1.3rem;
+}
+
+label{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+input:focus{
+    outline: none !important;
+    border: 2px solid rgb(54, 141, 255);
+    border-radius: 3px;
+}
+
+input:invalid{
+    border: 2px solid rgb(255, 29, 29);
+}
+
+.end-form{
+    padding: 1.5rem 3rem 2rem 2rem;
 }
