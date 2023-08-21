@@ -84,6 +84,7 @@ input:focus {
     outline: none !important;
     border: 2px solid rgb(54, 141, 255);
     border-radius: 3px;
+    box-shadow: 2px 2px 5px 1px gray;
 }
 
 input:focus:invalid {
